@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Janus 1.0 es un asistente personal para Windows. Conoce su integración con Google Calendar y cómo utiliza tus datos.">
+  <meta name="theme-color" content="#111113">
+  <title>Janus — Asistente personal</title>
+  <link rel="icon" href="janus.ico" sizes="any">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <header class="header wrap">
+    <a class="brand" href="./" aria-label="Janus, inicio"><img src="janus.ico" width="38" height="38" alt=""><span>Janus<span class="version">1.0</span></span></a>
+    <nav aria-label="Navegación principal"><a href="#calendar">Google Calendar</a><a href="privacidad.html">Privacidad</a></nav>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Asistente personal para Windows</p>
+        <h1>Tu agenda.<br><span>En voz alta.</span></h1>
+        <p class="lead">Janus te ayuda a consultar y organizar tu día mediante una conversación. Tú eliges la cuenta, das las instrucciones y mantienes el control de tu calendario.</p>
+        <div class="actions"><a class="button" href="#calendar">Conocer la integración <span aria-hidden="true">↗</span></a><a class="text-link" href="privacidad.html">Cómo se usan tus datos <span aria-hidden="true">→</span></a></div>
+        <p class="small hero-note">Proyecto personal · Horario de Paita, Perú</p>
+      </div>
+      <aside class="example" aria-label="Ejemplo ilustrativo de conversación">
+        <div class="example-top"><img src="janus.ico" width="42" height="42" alt=""><span>Janus</span><span class="example-label">Ejemplo</span></div>
+        <p class="speaker">TÚ</p><p class="message">Agenda una reunión para mañana.</p>
+        <p class="speaker janus-speaker">JANUS</p><p class="message">¿A qué hora y cuánto tiempo durará?</p>
+        <div class="example-bottom"><span class="dot"></span> Primero, los detalles.</div>
+      </aside>
+    </section>
+    <section class="calendar-section wrap" id="calendar">
+      <div class="section-intro"><p class="eyebrow">Google Calendar</p><h2>Una conversación.<br>Un horario claro.</h2><p>La integración usa la API oficial de Google Calendar para trabajar con el calendario principal de la cuenta que autorizas.</p></div>
+      <div class="features">
+        <article><span class="number">01</span><div><h3>Consulta tu día</h3><p>Revisa la agenda y los espacios disponibles. Los horarios se interpretan en la zona <strong>America/Lima</strong>, correspondiente a Paita.</p></div></article>
+        <article><span class="number">02</span><div><h3>Agenda con los datos completos</h3><p>Janus pregunta por la fecha, hora o duración cuando falta información y comprueba los solapamientos antes de crear un evento.</p></div></article>
+        <article><span class="number">03</span><div><h3>Ajusta tus planes</h3><p>Puedes solicitar cambios, cancelar un evento concreto y configurar recordatorios mediante las notificaciones de Google Calendar.</p></div></article>
+      </div>
+    </section>
+    <section class="control wrap"><div><p class="eyebrow">Tu autorización</p><h2>El acceso empieza contigo.</h2></div><div><p>La cuenta se conecta desde la aplicación Janus, mediante el inicio de sesión y consentimiento de Google. Puedes desconectar la integración y revocar sus permisos cuando quieras.</p><p>La conversación y los resultados necesarios de Calendar se procesan con Google Gemini. La <a href="privacidad.html">política de privacidad</a> explica ese flujo, el almacenamiento local y tus opciones.</p></div></section>
+    <section class="contact wrap"><h2>Contacto</h2><p>Janus es un proyecto personal mantenido por <a href="https://github.com/c4fabixqa-sys">c4fabixqa-sys</a>. Para consultas sobre la aplicación o tus datos, utiliza el <a href="https://github.com/c4fabixqa-sys/c4fabixqa-sys.github.io/issues">repositorio del sitio</a>. Comparte únicamente la información necesaria; sus consultas son públicas.</p></section>
+  </main>
+  <footer class="footer wrap"><span>Janus 1.0 · Proyecto personal</span><div><a href="privacidad.html">Política de privacidad</a><a href="condiciones.html">Condiciones de uso</a><a href="https://github.com/c4fabixqa-sys/c4fabixqa-sys.github.io">GitHub</a></div></footer>
+</body>
+</html>
